@@ -7,6 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="FOODMUNC RWD.css"/>
 </head>
 
@@ -300,13 +301,16 @@
                 <div class="col-12">
                     <div class="d-flex flex-row justify-content-center">
                         <div class="follow-us-icon-container">
-                            <i class="fab fa-twitter icon"></i>
+                                                       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAnRJREFUWEftlkuIjlEYx3/jtplcYjYKkctkN9KQhVBSSGFG0rAyU6SUQiEm5JbLUhZkYSMLScx27EhS00hNIqbJhrCRlMucfz1vTd+c9z3njPfNLL5TX99X3znP+Z3/c21gnK2GccZDHSjkkbpC/0OhxcBBYBWwFOgHngG37HfGNAlYArweCelz2UxgLXA/9BrP/yeAbmByztkO4BWwDjgAbAEGQkCHgMvAduBhAtRu4E7C/gsGP9Up+iU751PoHrAD+A1sBR5FXNIEvAFmROzVll7gq3PjXFPrexGQVJGUWn+Aa+77FPCj4LKdwN1ImGzbJ4uztyGXHXcxcK7G+CAgVz4wyNq75eLDCUCCWA+8rz3jc9kaF9RPcox/BG7bZ+TLbgJ7E4COAFd8+31AEwDFUVvgAkkuKH0WASsTgLoAPWLU8gFtAJ5b2is9q1ibgZ5YIKmzDfjg0nhhFTQuFlvcHX2xQJeAoxWByKxSfLqVlSiXif4lVDaaqAPkxmdetz/jXnCyIpU6ra95zReNH8oEpea0EsG+ueyaY25LBtoITAFUhXeVBHXWqn6uuSKFlgMvSgLJgnk+8LnIZmhivA7sLwlKKgf7XQhI/1+1PvYvXDdiHxYCyiBaAc07y4DViWSPLc1/xpyLBZoI7HO16TQwK8aw7ZGL9gC/Ys8UAWnmnWdl/jzQHGvUTYJ/XYbqjGqZfkevWqBN1jYWWL1Q509d6oEK4KepB7Xfp5CUOOaG8XY3WzcmGNXwrrZwMTBdFposcpmKosYPzTkrANWQ2QapSe+dTXzq2grcoQT4MRXGMuwn24jNsmTDYz1QBwopV1copNAwPqtfJYPlU7sAAAAASUVORK5CYII=" />
+
                         </div>
                         <div class="follow-us-icon-container">
-                            <i class="fab fa-instagram icon"></i>
+                                                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA5tJREFUWEftl2moTlEUhp9rDPlDMkRJZjJFIkUiU6LMkiRkLBkKmYcIIRkyJRGZKWUqpEwh85QhRRR+mjLvV+vcduee6bufH/eHXbfvfvusvfb7rfWud61TQAlbBSUMD/8BpWUklwg1B1oDdYHSaY7t+U/gJXALuJ/lTBZAw4DFQP0sDhNsngJzgQNJfpIA1QR2Ad3zBBI+ftZFbRTwJspvEqBTQA87dBnYCdy00H/PCLI80BJoD0wEGtu5k0DvXAANAA7ZgTnA8owAkszKAeuACWY0EDgcPhAXIeVbnFG+h+QBpgwwFWgCrAReADeAFsATL2KFV0QBago8MIvOwMU8APV3KTtq508DPYERwG7bqwO89v1HAfLTpTDH8aUyMB3oALQCfgO33aVXgVXAJ4vAI7twCzDeIq8MaPUFTqQBUo43AR+AajHR6WYVWCvm+SuXnpHABXdhW0uZOPnFga0EfLRzk+yuxJTNtHw/AxpEXNgFOO/tnwPuAuKL0t3Ve9bJycalkA9l5ZftzQZWpEVongnhPSOfb680PQRqWwSHA9IVf0kq9gJVTKWbAZ9DNj9M7ee7zyVpgBY6PiywamgXcjQG2GZ70hHpSdRSSR+0B0pdQOLAVrxURDMBWmSGIqcI668dwGgnmFeAjjFggm31L5F9s4mib/7VaZtEMxMg9S2l7Y459B2pYqS2G4ApKYC2AmNj/KgCKxo1lI3CFVX2QcoeW3X49tpr5Kpvo+PQ5BRAKvNxxjnxyF+qMlWb+KMoZQIk8oYd7QOGmtaE0xnGJ01SHxN/xCN/ieQV3IZ+vChSbECzvL5WRNQ8v4NddPfb92nA2hCgb0BZo8bSNEDKqZBHpayGdfuqwHtrA2dCl/VyarzHyv6tSYdENlilHBANblpFGncUh2S0DHgeM5SpH/nlniSMEklfRAVCZBaptdR61qRF6F+3jjC3/NahGUmykMihfq7cj1mzlFYkNVe1GQ1fmrXVDsLNNQxG3+tZ9PW/GvmRNEDSmaBD5zt+RAHyxw+9OASjzl/btAFNhA3G2Cjnue6pXVw3wX3n0lU97CAOUB9vTpFO6E/zTj4rPMJGjsZJQ77G10GG4Jrr8NttyNcUoG6dZQVDvpq0RtngVUo+2kT5SQKk8lztDeVZAGSx0RSg6vK1KbHKwk7FofVuxmmY5bYEGw18M1xFHk/yk+XNNThfYl6l8wxMbsdziVBunotp/R9QWuD+AKvCuSXQPzajAAAAAElFTkSuQmCC" />
+
                         </div>
                         <div class="follow-us-icon-container">
-                            <i class="fab fa-facebook icon"></i>
+                                                       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAtVJREFUWEftl1moz0EUxz83yZI9StmTeBGliPCAB0mJFyQppZTtiojsESK7F5QXe5GUlPAiRLygxAOFlO0BIVvMt+be/sas/3vTTU7duv/fnDnnM2dmzjlTQxOTmibGwz8DNBKYDgwDutg/Bfs18Aq4CRwFbpTuQEmEWgJzgVqgV6ajx8BO4CDwJWdOLtBsYCvQOceoR0dRWwwcS83PARLIspShzPHVwMaYbgxIY4eBWZnOctX2AItCyjGgvcD8XC9W7zNwy/7fHGgBDAaaOXbWm9/rfLZDQNrvHQUwT4E1xvlZc1beOfNmAEc8tmb6vvuAOgBy0DYT6AkwHHgZ0J8MnPGMPQf6Al8rx3xAGwAdvlwZB1yOKE8BTgfGdST2x4C072/MdrXLpNEqe3h0dWYGWTujAC3SJ8pTilK9uBEab7LvhUwYqZ0DJjn6/WzEfKA+0wK/WzfgAh0A5hQAnQKmOvq61gsKbKytjKALdBsYUmDsJDDN0T/u+RYzeR6YGIrQM6B7A4FOeKIWM3nfHPqBIaBPpma1KgCSc1X9SikFem8KcPsQ0EegdQToEdC/AFiq+0xbMi8yRz7bhICU5Ho3MtAlYGzE5m9X3z3U123WDc1/CAwojJByVbfInKvA6FCEtgNLGjFC2ooPiQVsMc3bihDQmEQZqKzmsnHFk4VVZGVHogsyNAGkdvhaCEilQ4W1a+a2+PJQyS1TmuljauePEJC+rwQ2/SUgtTm7Kn01tP1oSITeAj1Ne6zcVy+hBk0FU81WSqoF+gmokF90HcRa2N3AwgRRtUBqR1RU/5BUk3/IHHI9gUJSDdBme069NnOeQVrNKvA+u0uAvtu3mUpJUHKANHmEfeS5L9ZcoAe2A7iXOpS5QLKjJKfGaznQyRpOAb2wKURP6W8pGI2XANXZU6swwfbMurrbHEdLgY7AHUDNV9abvs5GNUA5C61a5z9QKnS/AIE3giXLaGFzAAAAAElFTkSuQmCC" />
+
                         </div>
                     </div>
                 </div>
